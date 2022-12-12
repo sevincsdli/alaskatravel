@@ -2,130 +2,380 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+
 header {
-  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/c5319f449844568aa1933d1a/gggggg-min.jpg");
-  width: 100%;
+  background-image: url("alaskaheader.jpeg");
+  max-width: 100%;
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.class-header-text {
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+.class-header-text h1 {
+  font-size: 134px;
+  letter-spacing: 2px;
+  color: rgb(228, 228, 21);
+  font-weight: 200;
+}
+.class-header-text p {
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
   color: white;
 }
+.fa-chevron-down {
+  margin-top: 20px;
+  color: rgb(228, 228, 21);
+  font-size: 78px;
+}
+.alaska-question-part {
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/13483428c7e35d498328e12b/pexelsphoto540518.jpeg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.alaska-question {
+  width: 35%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.alaska-question h2 {
+  font-size: 64px;
+  color: yellow;
+  font-weight: 100;
+}
+.alaska-read {
+  width: 45%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.alaska-read p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 200;
+}
+.alaska-read button {
+  border: none;
+  background-color: yellow;
+  padding: 15px 30px;
+  border-radius: 1px;
+  font-size: 20px;
+  letter-spacing: 1px;
 
-header h1 {
+  margin-top: 60px;
+}
+.experience-part {
+  height: 700px;
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/08a5914d6b8d5ac68a2d27f7/pexelsphoto572897.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.experience-part h2 {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  color: yellow;
+  font-size: 48px;
+}
+.tour-pictures {
+  display: flex;
+  top: 70px;
+  position: relative;
+}
+
+.tour-pictures h2 {
+  color: white;
   font-size: 24px;
   position: relative;
-  top: 140px;
-  left: 50px;
+  top: 75%;
+  text-align: left;
 }
-header h2 {
-  font-size: 90px;
+.experience-part .fa-chevron-down {
   position: relative;
-  top: 150px;
-  left: 50px;
+  top: 70%;
+  text-align: left;
+}
+.brews-tour {
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/a2469711d8a0527c82fcf67f/alaskawildernessskyauroraborealis41004.jpeg");
+  width: 380px;
+  height: 440px;
+  background-size: cover;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.city-tour {
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/08eb8d77dd2553a2ba96f093/pexelsphoto533616.jpeg");
+  width: 380px;
+  height: 440px;
+  margin-right: 30px;
+  background-size: cover;
+}
+.museum-tour {
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/85aff1e254b358bdad54989f/pexelsphoto463734.jpeg");
+  width: 380px;
+  background-size: cover;
+  height: 440px;
+}
+.experience-part button {
+  border: none;
+  background-color: yellow;
+  padding: 15px 30px;
+  border-radius: 1px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 14%;
+  left: 41%;
+}
+.rail-from-section {
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e8388f4397a5560997ced6ad/pexelsphoto897717.jpeg");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+}
+.rail-1 {
+  width: 50%;
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+.rail-1 h3 {
+  font-size: 58px;
+  color: yellow;
+  font-weight: 200;
+}
+.rail-2 {
+  color: white;
+  width: 50%;
+  line-height: 1.5;
+  position: relative;
+  top: 70px;
+}
+.rail-2 h4 {
+  font-size: 28px;
+}
+.results {
+  height: 400px;
+  background-size: cover;
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/a414e2b890d552d880c1f25f/woodlandscapemountainsnature.jpg");
+}
+.results {
+  display: flex;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.results span {
+  color: yellow;
+  position: relative;
+  font-weight: 400;
+  top: 30%;
+}
+.results p {
+  top: 30%;
+  position: relative;
+}
+.stay-num,
+.visit-num,
+.repeat,
+.safe-secure {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 50px auto;
+  margin-top: 100px;
+}
+.connor-quin-section {
+  background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/2fec38a59e825ce6bbc2371a/wolfwolvessnowwolflandscape89773.jpeg");
+  height: 600px;
+  background-size: cover;
+}
+.connor-quin {
+  text-align: center;
+  color: white;
+  width: 50%;
+  line-height: 1.5;
+  position: relative;
+  top: 26%;
+  left: 26%;
+}
+.connor-quin-section img {
+  border-radius: 50%;
+}
+.contact-section {
+  display: flex;
+  background-image: url("  https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e49bf63281bd5a8e871d7dc6/pexelsphoto1054289.jpeg");
+  background-size: cover;
+  height: 500px;
+  background-position: bottom;
 }
 
-.main-grey {
-  height: 270px;
-  background-color: rgb(236, 233, 233);
-}
-.box {
-  width: 250px;
-  height: 350px;
-  background-color: rgb(255, 255, 255);
-  float: left;
-  margin: 30px;
+.contact-us-pp {
   position: relative;
-  bottom: 200px;
-  left: 15px;
-}
-.box h2 {
-  font-weight: bold;
-  font-size: 36px;
-  margin-top: 30px;
-}
-.fa-briefcase,
-.fa-plane,
-.fa-check,
-.fa-location-pin {
+  top: 10%;
+  width: 50%;
+  left:5%;
   color: white;
-  background-color: rgb(109, 204, 133);
-  border-radius: 50%;
-  padding: 10px;
-  font-size: 36px;
-}
-.italic {
   line-height: 1.5;
-  color: gray;
-  font-size: 18px;
-  margin-top: 30px;
 }
-.travel-pp,
-.benefits-pp,
-.about-pp,
-.awards-pp {
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
+.contact-us-pp h2 {
+  color: yellow;
+  font-size: 48px;
+  left: 50px;
 }
-.main-text {
-  height: 120px;
-  background-color: rgb(120, 184, 91);
-  text-align: center;
-  color: white;
+.contact-us-pp p {
+  top: 100px;
+  left: 50px;
+line-height: 1.5;
   font-size: 18px;
 }
-.main-text p {
+.contact-pp-2 {
+  width: 50%;
   position: relative;
-  bottom: 90px;
+  top: 10%;
 }
-footer{
-  height:80px;
-  background-color: rgb(38, 38, 39);
-  color:white;
-  line-height:1.3;
-  text-align:center;
-  position:relative;
-  bottom:5%;
+#name {
+  width: 80%;
+  height: 40px;
+  border: 2px solid grey;
+  margin-bottom: 50px;
+  border-radius: 2px;
 }
-@media screen and (max-width:700px)
-{
-header{
-  height:500px;
-  background-size:cover;
-  background-position:top;
-  text-align:center;
+#mail {
+  width: 80%;
+  height: 40px;
+  border: 2px solid grey;
+  margin-bottom: 50px;
+  border-radius: 2px;
 }
-header h1{
-font-size:24px; left:0;
-  top:120px;
-  font-weight:100;
+#message {
+  width: 80%;
+  height: 100px;
+  border: 2px solid grey;
+  margin-bottom: 50px;
+  border-radius: 2px;
 }
-header h2{
-  font-size:54px;
-  left:0px;
+#submit {
+  padding: 10px 30px;
+  border: none;
+  background-color: yellow;
 }
-.main-grey{
-  height:600px;
+#submit:hover {
+  background-color: rgb(228, 228, 25);
 }
-.box{
-  margin-left:18px;
-  height:320px;
+.contact-icons {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  font-size: 20px;
+
+  color: yellow;
 }
-.main-text{
-  height:120px;
-}
-.main-text p {
-  font-size:16px;
-  text-align:center;
-  width:70%;
-  margin-left:80px;
-  position:relative;
-  /*
-  bottom:20px;*/
-}
-footer{
-  height:60px;
- 
-}
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 700px;
+  }
+  .class-header-text h1 {
+    font-size: 76px;
+  }
+  .class-header-text p {
+    font-size: 24px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+  }
+  .fa-chevron-down {
+    margin-top: 20px;
+  }
+  .alaska-question-part {
+    display: inline-block;
+    margin: 0;
+    height: 650px;
+  }
+  .alaska-question {
+    width: 80%;
+    margin: 0;
+    position: relative;
+    left: 12%;
+    top: 20px;
+  }
+  .alaska-question h2 {
+    font-size: 36px;
+  }
+
+  .alaska-read {
+    width: 80%;
+    position: relative;
+    top: 40px;
+    left: 12%;
+    margin: 0;
+    font-size: 18px;
+  }
+  .alaska-read p {
+    line-height: 1.5;
+  }
+  .experience-part {
+    height: 1600px;
+  }
+  .tour-pictures {
+    display: inline-block;
+  }
+
+  .experience-part h2 {
+    font-size: 28px;
+    width: 90%;
+    text-align: left;
+    margin-left: 63px;
+  }
+  .brews-tour,
+  .city-tour,
+  .museum-tour {
+    position: relative;
+    left: 18%;
+    width: 90%;
+  }
+  .brews-tour h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .museum-tour h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .city-tour h2 {
+    text-align: left;
+    margin: 0;
+  }
+  .brews-tour {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .city-tour {
+    margin-bottom: 30px;
+  }
+  .museum-tour {
+    margin-bottom: 30px;
+  }
+  .experience-part .fa-chevron-down {
+    font-size: 32px;
+  }
+  .experience-part button {
+    position: relative;
+    bottom: 0%;
+    top: 71px;
+    left: 25%;
+  }
 }
